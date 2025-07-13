@@ -95,9 +95,9 @@ class GeoTesseraWrapper:
 
                         if 0 <= row < h and 0 <= col < w:
                             # If we are here, this is the one and only correct tile.
-                            print(
-                                f"  > Match found! Point belongs to tile ({tile_lat:.2f}, {tile_lon:.2f})."
-                            )
+                            #print(
+                            #    f"  > Match found! Point belongs to tile ({tile_lat:.2f}, {tile_lon:.2f})."
+                            #)
 
                             tile_key = (tile_lat, tile_lon)
                             if tile_key not in embedding_cache:
